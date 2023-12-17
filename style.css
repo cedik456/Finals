@@ -104,21 +104,23 @@ html {
  
 }
 
-/* HOME SECTION */
+/* HOME  */
 .home{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 1.5rem;
+  padding-top: 10rem;
   padding: 10rem;
+
 }
 
 .home .image{
-  flex: 1 1 45rem;
+  flex:1 1 45rem;
 }
 
-.home .image, img{
-  width:72%;
+.home .image img{
+  width:85%;
  }
 
 .home .content{
@@ -150,7 +152,7 @@ html {
   cursor: default;
 }
 
-/* SERVICES SECTION */
+/* SERVICES PAGE */
 
 .services{
   display: flex;
@@ -159,7 +161,6 @@ html {
   flex-wrap: wrap;
   gap: 1.5rem;
   padding: 15rem;
-  padding-top: 20rem;
 }
 
 .services .box-container {
@@ -189,4 +190,42 @@ html {
   font-size: 1rem;
   padding: 1rem 0;
 }
+
+/* ABOUT PAGE */
+
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding: 10rem;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+
+.about .row .image img {
+  width: 85%;
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+}
+
+.about .row .content h3 {
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  font-size: 5rem;
+  line-height: 1.8;
+}
+
+.about .row .content p {
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
 
