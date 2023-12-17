@@ -7,6 +7,10 @@
   .header {
     padding: 2rem;
   }
+
+  .home .image, img{
+    width: 100%;
+  }
 }
 
 @media (max-width:768px) {
@@ -15,7 +19,6 @@
     display: initial;
   }
   
-
   .header .navbar {
     position: absolute;
     top: 115%; right: 2rem;
@@ -42,12 +45,25 @@
     margin: 2.5rem;
   }
 
+  .home .image, img{
+    width: 100%;
+  }
+
 }
 
 @media (max-width:450px) {
 
   html {
     font-size: 50%;
+  }
+  
+
+}
+
+@media (max-width:375px) {
+
+  html {
+    font-size: 40%;
   }
   
 
