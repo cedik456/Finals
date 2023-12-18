@@ -182,7 +182,7 @@ html {
 }
 
 .services .box-container .box h3 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   padding: 1rem 0;
 }
 
@@ -238,4 +238,134 @@ html {
   gap: 1.5rem;
   padding: 15rem;
 }
+
+/* BOOK PAGE */
+.book{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 10rem;
+  gap: 1.5rem;
+  padding: 10rem; 
+}
+.book .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.book .row .image{
+  flex: 1 1 45rem;
+}
+
+.book .row .image img{
+  width: 85%;
+}
+.book .row {
+  width: 100%;
+}
+.book .row form{
+  flex: 1 1 45rem;
+  background: #fff;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+  border-radius: .5rem;
+}
+
+.book .row form h3{
+  color: var(--black);
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.book .row form .box{
+  width: 100%;
+  margin: .7rem 0;
+  border-radius: .5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+
+.book .row form .btn{
+  padding: 1rem 4rem;
+}
+
+/* REVIEW PAGE */
+
+.review{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding: 10rem;
+}
+
+.review-box-container {
+  padding-top: 20rem;
+}
+
+.review .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 2rem;
+}
+
+.review .box-container .box{
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+  padding: 2.5rem;
+  background: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.review .box-container .box img{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: .5rem solid #ffffff;
+}
+
+.review .box-container .box h3{
+  color: #ffffff;
+  font-size: 2.2rem;
+  padding: .5rem 0;
+}
+
+.review .box-container .box .stars i{
+  color: #ffffff;
+  font-size: 1.2rem;
+  
+}
+
+.review .box-container .box .text{
+  color: rgb(116, 116, 116);
+  line-height: 1.8;
+  font-size: 1.6rem;
+  padding-top: 7rem;
+}
+
+.review .box-container .box::before{
+  content: '';
+  position: absolute;
+  top: 0%; left: 0%;
+  background: var(--black);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 25rem;
+  width: 100%;
+  z-index: -1;
+}
+
 
