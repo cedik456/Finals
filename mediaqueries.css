@@ -65,6 +65,11 @@
   html {
     font-size: 40%;
   }
-  
+
+  .blogs .box-container .box .content .icon a i{
+  padding-right: .5rem;
+  color: #000000;
+
+  }
 
 }
