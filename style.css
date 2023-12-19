@@ -104,7 +104,7 @@ html {
  
 }
 
-/* HOME  */
+/* HOME PAGE */
 .home{
   display: flex;
   align-items: center;
@@ -178,7 +178,7 @@ html {
 }
 
 .services .box-container .box i {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .services .box-container .box h3 {
@@ -307,10 +307,6 @@ html {
   padding: 10rem;
 }
 
-.review-box-container {
-  padding-top: 20rem;
-}
-
 .review .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -344,7 +340,7 @@ html {
 }
 
 .review .box-container .box .stars i{
-  color: #ffffff;
+  color: #ffd700;
   font-size: 1.2rem;
   
 }
@@ -377,11 +373,6 @@ html {
   gap: 1.5rem;
   padding-top: 10rem;
   padding: 10rem;
-}
-
-.blogs-box-container {
-  padding-left: 10rem;
-  padding-top: 20rem;
 }
 
 .blogs .box-container{
